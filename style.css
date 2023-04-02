@@ -1,0 +1,48 @@
+@media screen {
+    
+}
+body {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 1rem;
+}
+
+figure figcaption {
+    color: hsl(218, 44%, 22%);
+    font-family: 'Outfit', serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+.qr-body { background-color: rgb(215, 224, 238);}
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.card {
+    background-color: hsl(0, 0%, 100%);
+    width: 325px;
+    height: 500px;
+    position: relative;
+    border-radius: 5%;
+    padding: 1.8rem;
+}
+
+.qr-instructions p { text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Outfit', serif;
+    color: hsl(220, 15%, 55%);
+}
