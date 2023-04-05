@@ -3,6 +3,7 @@
 }
 body {
     margin: 0;
+    background-color: hsl(212, 45%, 89%);
 }
 
 img {
@@ -12,36 +13,40 @@ img {
     border-radius: 1rem;
 }
 
+figure {
+    margin: 1rem;
+}
+
 figure figcaption {
     color: hsl(218, 44%, 22%);
     font-family: 'Outfit', serif;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.25rem;
     text-align: center;
+    margin: inherit;
 }
 
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: .688rem; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 .qr-body { background-color: rgb(215, 224, 238);}
 .container {
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
     justify-content: center;
     align-items: center;
-    background-color: hsl(212, 45%, 89%);
 }
 
 .card {
     background-color: hsl(0, 0%, 100%);
-    width: 325px;
-    height: 500px;
+    max-width: 20.31rem;
+    max-height: 31.25rem;
     position: relative;
-    border-radius: 5%;
-    padding: 1.8rem;
+    border-radius: 1rem;
+    display: block;
 }
 
 .qr-instructions p { text-align: center;
-    font-size: 15px;
+    font-size: .938rem;
     font-weight: 500;
     font-family: 'Outfit', serif;
     color: hsl(220, 15%, 55%);
